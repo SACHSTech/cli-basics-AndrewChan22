@@ -1,1 +1,26 @@
-
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22 (main) $ pwd
+/workspaces/cli-basics-AndrewChan22
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22 (main) $ mkdir CLIBasicsFolder
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22 (main) $ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22 (main) $ cd CLIBasicsFolder
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main) $ touch myfile.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ echo Andrew Chan ICS4U1b >> myfile.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ cat myfile.txt
+Andrew Chan ICS4U1b
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ ls
+myfile_copy.txt  myfile.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ mv myfile_copy.txt myfile2.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ mv myfile2.txt ..
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ ls
+myfile.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ ls
+myfile.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ ls ..
+CLIBasicsFolder  myfile2.txt  README.md  TerminalSession.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22/CLIBasicsFolder (main ✗) $ cd ..
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22 (main ✗) $ rm CLIBasicsFolder/myfile.txt
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22 (main ✗) $ rmdir CLIBasicsFolder
+@AndrewChan22 ➜ /workspaces/cli-basics-AndrewChan22 (main ✗) $ ls ..
+cli-basics-AndrewChan22
